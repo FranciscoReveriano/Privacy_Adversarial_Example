@@ -1,0 +1,15 @@
+Average Blink Rate
+Focus Ratio
+Average Focus Deviation Rate
+Number of Focused Fixations
+Mean Focused Fixation Duration 
+Median Focused Fixation Duration
+Time to First Fixation
+RFDSD (Ratio of Fixation Time to Saccade Time)
+Standard Deviation (X)
+Standard Deviation (Y)
+Standard Distance (XY)
+Number of Saccades
+Mean Focused Saccade Amplitude
+Median Focused Saccade Amplitude
+
