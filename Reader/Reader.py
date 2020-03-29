@@ -25,11 +25,11 @@ class Reader:
             count += 1                                                                                                  # Update Index
         self.Num_Files = count                                                                                          # Update Global Count Variable
     def set_column_names(self):
-        self.panda_columns_names = ['Average Blink Rate','Focus Ratio', 'Average Focus Deviation Rate', 'Number of Focused Fixations', 'Mean Focused Fixation Duration',
+        self.panda_columns_names = ['Engagement','Average Blink Rate','Focus Ratio', 'Average Focus Deviation Rate', 'Number of Focused Fixations', 'Mean Focused Fixation Duration',
                                     'Median Focused Fixation Duration', 'Time to First Fixation', 'RFDSD', 'Standard Deviation (X)', 'Standard Deviation (Y)',
                                     'Standard Distance (XY)', 'Number of Saccades', 'Mean Focused Saccade Amplitude', 'Median Focused Saccade Amplitude']
     def load_file(self):
-        dataframe = pd.DataFrame(columns=[])                                                                            # Create Empty Dataframe
+        dataframe = pd.DataFrame()                                                                            # Create Empty Dataframe
         for file in self.File_List:                                                                                     # Loop Through All Files
             new_file_name = self.Eye_Data_Path + "/" + file                                                             ## Update File Name for Correct Path
             new_data = np.loadtxt(new_file_name, usecols=0)                                                             ## Load Column Using Numpy Array
