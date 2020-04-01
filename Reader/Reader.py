@@ -37,3 +37,17 @@ class Reader:
             dataframe = dataframe.append(new_panda)                                                                     ## Create dataFrame
         dataframe.columns = self.panda_columns_names                                                                    ## Return Datafram
         return dataframe
+    def load_file_noise(self):
+        dataframe = pd.DataFrame()                                                                            # Create Empty Dataframe
+        for file in self.File_List:                                                                                     # Loop Through All Files
+            new_file_name = self.Eye_Data_Path + "/" + file                                                             ## Update File Name for Correct Path
+            new_data = np.loadtxt(new_file_name, usecols=0)                                                             ## Load Column Using Numpy Array
+            ## We need to Call Noise
+            ## Add Noise to the loaded data
+            for i in range(1,len(new_data)):
+                noise = np.random.uniform(0, 0.1)
+                new_data[i] += noise
+            new_panda = pd.DataFrame(new_data).T                                                                        ## Transpose to Correct Format
+            dataframe = dataframe.append(new_panda)                                                                     ## Create dataFrame
+        dataframe.columns = self.panda_columns_names                                                                    ## Return Datafram
+        return dataframe

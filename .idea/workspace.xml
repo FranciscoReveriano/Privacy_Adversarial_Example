@@ -2,39 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62088054-2cb3-4f77-94d1-55608ca82cb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Eye_Data/braque_BK_NE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/braque_TS_NE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/goya_BK_E.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/goya_TS_NE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/kandinsky_BK_E.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/kandinsky_TS_E.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/lichtenstein_BK_NE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/lichtenstein_TS_NE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/mondrian_BK_E.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/mondrian_TS_E.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/monet_BK_E.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/monet_TS_E.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/picasso_BK_NE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/picasso_TS_NE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/renoir_BK_E.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/renoir_TS_E.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/turner_BK_E.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/turner_TS_NE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/warhol_BK_NE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye_Data/warhol_TS_NE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Linear_SVM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Naive_Bayes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/NonLinear_SVM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputE1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Eye_Data/artoutputE1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputE2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Eye_Data/artoutputE2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputE3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Eye_Data/artoutputE3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputE4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Eye_Data/artoutputE4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputE5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Eye_Data/artoutputE5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputN1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Eye_Data/artoutputN1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputN2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Eye_Data/artoutputN2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputN3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Eye_Data/artoutputN3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputN4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Eye_Data/artoutputN4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputN5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Eye_Data/artoutputN5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adversarial Models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Adversarial Models.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputE1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputE2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputE3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputE4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputE5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputN1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputN2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputN3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputN4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eye_Data/artoutputN5.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Reader/Reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/Reader/Reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reader/eye_data_header.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Reader/eye_data_header.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
