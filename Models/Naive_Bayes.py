@@ -42,3 +42,29 @@ def Naive_Bayes_Model(X_train, Y_train, X_test, Y_test):
 
     ## Proceed to Graph ROC Curve
     plot_roc_curve(linear_svc, X_test, Y_test)
+
+
+def Return_Naive_Bayes_Model(X_train, Y_train, X_test, Y_test):
+    ## Proceed To Prepare Linear SVM
+    linear_svc = GaussianNB()
+    linear_svc.fit(X_train, Y_train)
+
+    ## Proceed to Test Performance on the Training Dataset
+    Y_train_predict = linear_svc.predict(X_train)
+
+    ## Proceed to write accuracy
+    train_accuracy = accuracy_score(Y_train,Y_train_predict)
+    train_precision = precision_score(Y_train, Y_train_predict)
+    train_recall = recall_score(Y_train, Y_train_predict)
+    train_auc = roc_auc_score(Y_train, Y_train_predict)
+
+    ## Proceed to Test on Testing Dataset
+    Y_test_predict = linear_svc.predict(X_test)
+
+    # Proceed to Calculate Scores
+    test_accuracy = accuracy_score(Y_test,Y_test_predict)
+    test_precision = precision_score(Y_test, Y_test_predict)
+    test_recall = recall_score(Y_test, Y_test_predict)
+    test_auc = roc_auc_score(Y_test, Y_test_predict)
+
+    return test_accuracy, test_precision, test_recall, test_auc

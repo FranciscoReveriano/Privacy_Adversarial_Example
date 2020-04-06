@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62088054-2cb3-4f77-94d1-55608ca82cb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/util/util.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Adversarial Models-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Adversarial Models-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Adversarial Models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Adversarial Models.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Naive_Bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Naive_Bayes.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
