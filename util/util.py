@@ -36,7 +36,6 @@ def test_noise_naive_bayes(X,Y, columns, size_of_noise):
 def add_noise(noise_x, noise_mean, noise):
     # Convert Panda Dataframe to Numpy Array
     noise_x = noise_x.to_numpy()
-
     # Loop Through To Add Noise
     for i in range(len(noise_x)):
         for j in range(len(noise_x[i])):
