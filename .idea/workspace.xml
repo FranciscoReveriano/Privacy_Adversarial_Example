@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62088054-2cb3-4f77-94d1-55608ca82cb1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adversarial Models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Adversarial Models.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +24,7 @@
   <component name="ProjectId" id="1ZAtd7VzPZMwWhsApuRQoTTwyjD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Eye_Data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Udacity/deep-learning-v2-pytorch" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
